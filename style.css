@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  color: white;
+}
+
+div.contenitore{
+  width: 900px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 30px auto;
+  border-radius: 10px;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  font-family: 'Roboto', sans-serif;
+}
+
+header img{
+  width: 200px;
+  display: block;
+  margin: 10px auto;
+}
+
+header p{
+  text-align: center;
+  color: lime;
+  font-size: 25px;
+  margin: 10px auto;
+
+}
+
+nav{
+  background-color: lime;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  width: 83%;
+
+}
+
+main{
+  margin: auto;
+  width: 83%;
+}
+
+input{
+  width: 10px;
+  height: 10px;
+  margin: 15px auto;
+
+}
+
+h2{
+  font-size: 18px;
+  width: 96%;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.via{
+  font-size: 13px;
+
+}
+.batteria{
+  display: inline-block;
+  width: 100%;
+  font-size: 13px;
+}
+
+.livello-batteria-gino{
+  background-color: orange;
+  width: 300px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: rgba(255, 165, 0, 0.8);
+}
+
+.livello-batteria-mike{
+  background-color: lime;
+  width: 400px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: rgba(0, 255, 0, 0.8);
+}
+
+.livello-batteria-fede{
+  background-color: red;
+  width: 150px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: rgba(255, 0, 0, 0.8);
+}
